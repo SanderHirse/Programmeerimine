@@ -42,7 +42,7 @@ print "", text.center(50, "=")
 
 nimi = raw_input('Kes s6i vanaema moosi 2ra? ');
 
-print "Vanaema moosi s6i 2ra" + nimi.capitalize();
+print "Vanaema moosi s6i 2ra " + nimi.capitalize();
 
 text = "Viies kysimus"
 print "", text.center(50, "=")
