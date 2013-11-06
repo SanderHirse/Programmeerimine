@@ -1,3 +1,4 @@
+p = "POMMUUDIS"
 u = "ALGIS SUURKIVI VALITI AINULT KAHE KANEPI KODANIKU POOLT"
 t1 = "Algis Suurkivi, Kanepi valla noor lootus"
 t2 = "on vedanud alt tervet Eesti vabariiki ning"
