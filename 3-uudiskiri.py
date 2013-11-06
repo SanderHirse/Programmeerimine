@@ -8,5 +8,11 @@ print u.center(100, '-')
 print " "
 print " "
 print t1
+print " "
 print t2
+print " "
 print t3
+print ""
+print ""
+print 
+
