@@ -4,14 +4,15 @@ t2 = "on vedanud alt tervet Eesti vabariiki ning"
 t3 = "reformierakonda eesotsas Ansipiga!"
 
 
-print u.center(100, '-')
+print p.center(100, '-')
+print u.ljust(50, "-")
 print " "
 print " "
-print t1
+print t1.ljust(50, " ")
+print "Popp ja noortep2rnae algis on olnud lapsest peale lahe"
+print t2.ljust(50, " ")
 print " "
-print t2
-print " "
-print t3
+print t3.ljust(50, " ")
 print ""
 print ""
 print 
