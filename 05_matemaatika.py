@@ -15,3 +15,4 @@ nump = float(num)
 print "Tangents: ",math.tan(nump * math.pi/180)
 print "Cossiinus: ",math.cos(nump * math.pi/180)
 print "Siinus: ",math.sin(nump * math.pi/180)
+print ""
