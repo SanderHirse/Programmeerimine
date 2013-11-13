@@ -6,9 +6,6 @@ ruumala = x * y * z
 print ruumala
 
 
-x = 65/math.sin(20 * math.pi/180)
-print 'vastus: x = ',round(x,2),'m';
-
 
 num = raw_input("Kirjutage number palun ")
 nump = float(num)
