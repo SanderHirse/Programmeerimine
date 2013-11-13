@@ -1,6 +1,8 @@
 import math
 text = "SUPER vinge Kahekymmneesimese sajandi siinuste arvutaja"
 print "", text.center(75, "=")
+text = "Ja risttahuka ruumala arvutaja!"
+print "", text.center(75, "=")
 num = raw_input("Keeruta yks numbe, jouuuu! ")
 nump = float(num)
 print "Tangents: ",math.tan(nump * math.pi/180)
