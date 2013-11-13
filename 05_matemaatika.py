@@ -1,5 +1,5 @@
 import math
-text = "V2ga vinge Kahekymmneesimese sajandi siinuste arvutaja"
+text = "SUPER vinge Kahekymmneesimese sajandi siinuste arvutaja"
 print "", text.center(75, "=")
 num = raw_input("Keeruta yks numbe, jouuuu! ")
 nump = float(num)
