@@ -1,9 +1,9 @@
-print "Ruumala"
-x = 5
-Y = 2
-z = 1
-ruumala = x * y * z
-print ruumala
+text = "V2ga vinge Kahekymmneesimese sajandi siinuste arvutaja"
+print "", text.center(50, "=")
+
+
+
+
 
 
 
