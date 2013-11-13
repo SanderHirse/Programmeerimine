@@ -1,11 +1,4 @@
-import math
-vanus = 23
-print vanus
-vanus = 23 + 1
-print vanus
-
-
-print "RUUMALA"
+print "Ruumala"
 x = 5
 Y = 2
 z = 1
