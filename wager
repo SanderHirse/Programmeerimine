@@ -1,0 +1,29 @@
+# coding: latin-1
+i = int(1)
+n = int(raw_input('Sisesta pikkus : '))
+while i <= n:
+	print "#"*i
+	i = i + 1
+i = int(1)
+n = int(6)
+p = i + n
+print ""
+while i <= n:
+	print "#"*i, "*"*p
+	p = p - 1
+	i = i + 1
+
+
+
+#####
+#import os
+#clear = os.system('clear');
+i = 1
+n = int(raw_input('kui pikk? '))
+p = i + n
+while i <= n :
+	p = p - 1
+	print '#'*i, '*'*p
+	i = i + 1
+	
+	
