@@ -1,0 +1,15 @@
+#####
+#import os
+#clear = os.system('clear');
+import random
+i = 1
+n = int(raw_input('kui pikk? '))
+p = i + n
+while i <= n :
+	rand = random.randint(3,100)
+	p = p - rand
+	print '#'*rand
+	i = i + 1
+	
+	
+	
