@@ -1,0 +1,20 @@
+import sys
+import time
+def kursor(x, y, t):
+    sys.stdout.write("\033[" + str(y) + ";" + str(x) + "H" + t)
+def kast(x, y, w, h):
+	kursor(x, y, '+' +('-' * (w-2)) + '+')
+	r = 1
+	while r <= h-1:
+		kursor(x, y+r, '|' + (' ' * (w-2)) + '|')
+		r = r + 1
+	kursor(x, y+h, '+' + ('-' * (w-2)) + '+')
+	txt = 'tere'
+	tx = len(txt)
+	kursor(x+w-w/2-tx/2, y+h-h/2, txt)
+kast(10, 10, 20, 10)
+kast(7, 13, 20, 10)
+kast(5, 15, 20, 10)
+sys.stdout.flush()
+time.sleep(10)
+
